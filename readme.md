@@ -224,6 +224,29 @@ console.log("User with interface + extend:", user3);
 
 ---
 
+✅ Advantages of interface over type:
+    1.Extending and Merging (Declaration Merging):
+
+Interfaces can be extended and merged more naturally.
+
+Multiple interface declarations with the same name are automatically merged. With type, you’d get an error for redeclaration.
+
+    2.Better for OOP-style Code:
+
+Interfaces are designed with object-oriented programming in mind. They're ideal when you want to define contracts for classes.
+
+    3.Performance (in some tooling):
+
+Interfaces are often slightly more optimized by the TypeScript compiler, especially in larger codebases, since they’re structurally simpler.
+
+    4.More Readable Intent:
+
+Using interface signals that the type is intended to define a shape of an object or class, improving code readability and intent.
+
+Best in Use:
+Use interface when defining the shape of an object or class.
+Use type for everything else (unions, primitives, intersections, tuples, mapped types, etc.).
+
 ### Primitive Types: Only with `type`
 
 ```ts
