@@ -26,8 +26,7 @@ const iuser: IUserwithRole = {
     name: 'Manna', age: 37, role: 'developer'
 }
 
-//Arrays
-
+//Array
 type ArrayT = string[]
 const arrayT: ArrayT = ['Kamal', 'Jamal', 'Rasel']
 
