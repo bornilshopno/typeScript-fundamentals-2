@@ -1272,12 +1272,3 @@ const anyObj: Record<string, unknown> = {
 
 ---
 
-## 👨‍💻 Author
-
-**Md Monjur Bakth Mazumder**  
-Software Engineer & Lead Frontend Developer  
-[Qrinux](https://www.qrinux.com/)  
-[Email me](mailto:md.monjurmbm2001@gmail.com)  
-[Portfolio](https://mdmonjurbakthmazumder.netlify.app)
-
-_Passionate about building clean, maintainable, and scalable applications._
